@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-# Probably should rewrite to only store a hit once in a while,
-# because we're setting the dt each time.
 
 from copy import deepcopy
 from datetime import datetime
