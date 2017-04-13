@@ -24,3 +24,15 @@ time, over 100 intervals.
    :height: 194px
    :width: 854px
    :alt: Two items hit 1/3 of the time over 100 intervals
+
+I've reworked the code to calculate a "velocity" from current minus
+old hits divided by current minus old times. It seems more smooth. At
+100, I stop adding hits and we see the velocity decay slowly.
+
+.. image:: velocity-no-age-out.png
+
+But if I age out old values, replacing with the only thing I have --
+the previous ones -- then I get spiky valuse. In this, we age every 20
+intervals.
+
+.. image:: velocity-age-out-spikey.png
