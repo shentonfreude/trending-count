@@ -22,5 +22,5 @@ time, over 100 intervals.
 
 .. image:: simulation.png
    :height: 194px
-   :width: px
+   :width: 854px
    :alt: Two items hit 1/3 of the time over 100 intervals
