@@ -16,3 +16,11 @@ hit-count that's been derated by the age of the count, along with the
 last time the score was updated. Then when we get a new hit, we
 subtract last time from current time, multiple the old score by that
 (to derate) then add "1" for the new count.
+
+Here's a simulation of two items which are hit about a third of the
+time, over 100 intervals.
+
+.. image:: simulation.png
+   :height: 194px
+   :width: px
+   :alt: Two items hit 1/3 of the time over 100 intervals
